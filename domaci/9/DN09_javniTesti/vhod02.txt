@@ -1,0 +1,18 @@
+10 5
+0 1 1 0 2
+1015 Jozhe Gorishek 6 true
+1033 Andrej Gorishek 4 false
+1036 Mojca Kos 7 true
+1048 Mojca Kotnik 4 true
+1075 Branko Virk -1 true
+1099 Peter Debeljak 10 false
+1106 Jasna Bizjak 5 false
+1111 Mirko Bizjak 7 true
+1112 Mojca Kotnik 4 true
+1156 Dejan Bizjak 7 true
+4
+uredi 4 -5 4 -3 2
+stolpci 3 5
+filtriraj 2 1 8
+filtriraj 1 0 3
+2 3

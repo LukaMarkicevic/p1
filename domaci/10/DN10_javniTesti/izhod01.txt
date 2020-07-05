@@ -1,0 +1,34 @@
+--- prva ---
+3
+
+ana: 3
+eva: 1
+cvetko: 0
+bojan: 7
+darja: 0
+
+[ana/3, bojan/7, eva/1]
+
+ana
+ana
+ana
+bojan
+bojan
+bojan
+bojan
+bojan
+bojan
+bojan
+eva
+
+--- druga ---
+[bojan/4, eva/3, franci/5]
+
+--- tretja ---
+[bojan/4, eva/1]
+
+--- cetrta ---
+[ana/3, bojan/3]
+
+--- prva ---
+[ana/3, bojan/7, eva/1]
