@@ -1,0 +1,7 @@
+
+Javina dokumentacija je dostopna na
+
+C:\Program Files\Java\jdk...\docs\index.html
+
+Izberite modul java.base, nato pa "zeleni paket (najverjetneje bo to
+java.lang, java.util ali java.util.function).
