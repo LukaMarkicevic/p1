@@ -1,0 +1,20 @@
+
+=======================
+ PROGRAM ZA TESTIRANJE
+=======================
+
+Zagon:
+
+tj.exe
+
+Zagon s "casovno omejitvijo 3 sekunde na testni primer:
+
+tj.exe -t 3
+
+Testiranje s testnimi primeri 2-5:
+
+tj.exe -p 2-5
+
+Stara razli"cica:
+
+tj_stari.exe

@@ -82,6 +82,7 @@ public class Tretja {
         public void izvedi(int[] stolpi) {
             if (this.kam < stolpi.length)
                 stolpi[kam]++;
+            System.out.println(Arrays.toString(stolpi));
         }
 
         // po potrebi dopolnite ...
@@ -107,6 +108,7 @@ public class Tretja {
         public void izvedi(int[] stolpi) {
             if (this.odkod < stolpi.length && stolpi[odkod] > 0)
                 stolpi[odkod]--;
+            System.out.println(Arrays.toString(stolpi));
         }
 
         // po potrebi dopolnite ...

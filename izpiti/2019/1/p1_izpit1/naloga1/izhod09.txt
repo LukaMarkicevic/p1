@@ -1,0 +1,10 @@
+01: true
+02: false
+03: false
+04: true
+05: false
+06: true
+07: true
+08: true
+09: false
+10: false

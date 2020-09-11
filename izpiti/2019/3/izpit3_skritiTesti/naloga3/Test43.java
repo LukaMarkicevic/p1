@@ -1,0 +1,92 @@
+// _NE_ODSTRANI_
+
+import java.awt.*;
+
+public class Test43 {
+
+    public static void main(String[] args) {
+
+        Tretja.Ladja[] ladje = {
+            new Tretja.LadjaNavpicno(3, 3, 2),
+            new Tretja.LadjaVodoravno(7, 4, 8),
+            new Tretja.LadjaVodoravno(1, 5, 5),
+            new Tretja.LadjaVodoravno(11, 0, 11),
+            new Tretja.LadjaVodoravno(4, 7, 6),
+            new Tretja.LadjaVodoravno(9, 0, 6),
+            new Tretja.LadjaNavpicno(0, 0, 8),
+            new Tretja.LadjaVodoravno(2, 11, 1),
+            new Tretja.LadjaVodoravno(0, 12, 1),
+        };
+        Tretja.Strel[] streli = {
+            new Tretja.Strel(9, 4),
+            new Tretja.Strel(2, 1),
+            new Tretja.Strel(2, 5),
+            new Tretja.Strel(8, 4),
+            new Tretja.Strel(10, 4),
+            new Tretja.Strel(8, 0),
+            new Tretja.Strel(2, 8),
+            new Tretja.Strel(0, 7),
+            new Tretja.Strel(8, 1),
+            new Tretja.Strel(10, 7),
+            new Tretja.Strel(0, 3),
+            new Tretja.Strel(1, 1),
+            new Tretja.Strel(6, 0),
+            new Tretja.Strel(0, 9),
+            new Tretja.Strel(7, 0),
+            new Tretja.Strel(4, 1),
+            new Tretja.Strel(1, 4),
+            new Tretja.Strel(3, 9),
+            new Tretja.Strel(7, 5),
+            new Tretja.Strel(12, 11),
+            new Tretja.Strel(4, 0),
+            new Tretja.Strel(2, 4),
+            new Tretja.Strel(4, 6),
+            new Tretja.Strel(6, 4),
+            new Tretja.Strel(6, 8),
+            new Tretja.Strel(11, 7),
+            new Tretja.Strel(12, 4),
+            new Tretja.Strel(0, 5),
+            new Tretja.Strel(9, 5),
+            new Tretja.Strel(4, 12),
+            new Tretja.Strel(11, 12),
+            new Tretja.Strel(8, 3),
+            new Tretja.Strel(12, 7),
+            new Tretja.Strel(7, 2),
+            new Tretja.Strel(1, 8),
+            new Tretja.Strel(7, 7),
+            new Tretja.Strel(2, 9),
+            new Tretja.Strel(6, 9),
+            new Tretja.Strel(1, 9),
+            new Tretja.Strel(3, 4),
+            new Tretja.Strel(7, 8),
+            new Tretja.Strel(8, 8),
+            new Tretja.Strel(9, 1),
+            new Tretja.Strel(4, 4),
+            new Tretja.Strel(11, 4),
+            new Tretja.Strel(7, 3),
+            new Tretja.Strel(9, 8),
+            new Tretja.Strel(5, 4),
+            new Tretja.Strel(12, 1),
+            new Tretja.Strel(5, 8),
+            new Tretja.Strel(4, 10),
+            new Tretja.Strel(4, 3),
+            new Tretja.Strel(6, 7),
+            new Tretja.Strel(1, 11),
+            new Tretja.Strel(4, 11),
+            new Tretja.Strel(5, 0),
+            new Tretja.Strel(12, 6),
+            new Tretja.Strel(0, 11),
+            new Tretja.Strel(12, 5),
+            new Tretja.Strel(5, 2),
+            new Tretja.Strel(8, 10),
+            new Tretja.Strel(9, 3),
+            new Tretja.Strel(11, 0),
+            new Tretja.Strel(9, 0),
+            new Tretja.Strel(2, 11),
+            new Tretja.Strel(1, 7),
+        };
+
+        Tretja tretja = new Tretja(13, ladje, streli);
+        tretja.sproziRisanje(new String[]{"rezultat43.png", "442x624"}, "Potapljanje ladjic");
+    }
+}
